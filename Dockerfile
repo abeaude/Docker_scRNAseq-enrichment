@@ -1,4 +1,4 @@
-FROM abeaude/scrnaseq-clustering:3.6.2
+FROM abeaude/scrnaseq-clustering:3.6.3
 RUN apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get -y -q --no-install-recommends install \
    libglpk-dev\
    libcurl4-openssl-dev \
